@@ -1946,7 +1946,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@skyscanner/backpack-react-scripts@npm:^9.0.2":
+"@skyscanner/backpack-react-scripts@npm:^9.5.1":
   version: 9.5.1
   resolution: "@skyscanner/backpack-react-scripts@npm:9.5.1"
   dependencies:
@@ -3582,7 +3582,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bpk-component-text@npm:^4.0.8":
+"bpk-component-text@npm:^4.0.24":
   version: 4.0.24
   resolution: "bpk-component-text@npm:4.0.24"
   dependencies:
@@ -3607,7 +3607,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bpk-mixins@npm:^22.0.1":
+"bpk-mixins@npm:^22.0.4":
   version: 22.0.4
   resolution: "bpk-mixins@npm:22.0.4"
   dependencies:
@@ -3631,15 +3631,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bpk-mixins@npm:^25.1.0":
-  version: 25.1.0
-  resolution: "bpk-mixins@npm:25.1.0"
+"bpk-mixins@npm:^26.0.1":
+  version: 26.0.1
+  resolution: "bpk-mixins@npm:26.0.1"
   dependencies:
     "@skyscanner/bpk-foundations-web": ^5.0.0
     "@skyscanner/bpk-svgs": ^14.0.19
   peerDependencies:
     node-sass: ^4.12.0
-  checksum: 583e21990a29979cf7063ce714a8a4879a329f6f9656af2c7f7823d9c8eefc829d56338a10f350c7e876ff9257340c536278895669cf50f7b7920f728f1df96b
+  checksum: 5f36824b248ccd2c8e784673d5d44527da57eeb56cac25fec4c929ee8c011af00087b3144018011136d9a3fb64d1c348b7e2537b6f0e0a1191fec1139affef74
   languageName: node
   linkType: hard
 
@@ -3658,14 +3658,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bpk-stylesheets@npm:^7.0.7":
-  version: 7.1.18
-  resolution: "bpk-stylesheets@npm:7.1.18"
+"bpk-stylesheets@npm:^7.1.21":
+  version: 7.1.21
+  resolution: "bpk-stylesheets@npm:7.1.21"
   dependencies:
     "@skyscanner/bpk-foundations-web": ^5.0.0
-    bpk-mixins: ^25.1.0
+    bpk-mixins: ^26.0.1
     normalize.css: 4.2.0
-  checksum: 9f5e132e03b25ded5864f1e62f339657af8292480bb4610b2bdfe721e00eeb0536cedc4cd7490b753497d142967784338e9221880b81164339f6b42f90311e31
+  checksum: 8d32961a4dfa49dfb03902a4ed6d1c0d94ffe990a7748f67ace626e0f2727dc6fe629211a1d615e861d6729ede730889ed32aedb3896a54e74c700692227734f
   languageName: node
   linkType: hard
 
@@ -6537,14 +6537,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "full-stack-recruitment-test@workspace:."
   dependencies:
-    "@skyscanner/backpack-react-scripts": ^9.0.2
-    bpk-component-text: ^4.0.8
-    bpk-mixins: ^22.0.1
-    bpk-stylesheets: ^7.0.7
+    "@skyscanner/backpack-react-scripts": ^9.5.1
+    bpk-component-text: ^4.0.24
+    bpk-mixins: ^22.0.4
+    bpk-stylesheets: ^7.1.21
     cross-env: ^7.0.3
-    react: ^16.11.0
-    react-dom: ^16.11.0
-    react-test-renderer: ^16.11.0
+    react: ^16.14.0
+    react-dom: ^16.14.0
+    react-test-renderer: ^16.14.0
   languageName: unknown
   linkType: soft
 
@@ -11891,7 +11891,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.11.0":
+"react-dom@npm:^16.14.0":
   version: 16.14.0
   resolution: "react-dom@npm:16.14.0"
   dependencies:
@@ -11940,7 +11940,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-test-renderer@npm:^16.11.0":
+"react-test-renderer@npm:^16.14.0":
   version: 16.14.0
   resolution: "react-test-renderer@npm:16.14.0"
   dependencies:
@@ -11969,7 +11969,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^16.11.0":
+"react@npm:^16.14.0":
   version: 16.14.0
   resolution: "react@npm:16.14.0"
   dependencies:
