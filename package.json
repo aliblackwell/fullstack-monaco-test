@@ -14,14 +14,17 @@
   },
   "devDependencies": {
     "@skyscanner/backpack-react-scripts": "^9.0.2",
+    "bpk-component-card": "^4.1.0",
+    "bpk-component-icon": "^9.2.0",
+    "bpk-component-image": "^5.1.0",
     "bpk-component-text": "^4.0.8",
     "bpk-mixins": "^22.0.1",
     "bpk-stylesheets": "^7.0.7",
     "cross-env": "^7.0.3",
+    "prop-types": "^15.8.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-test-renderer": "^16.11.0",
-    "prop-types": "^15.8.1"
+    "react-test-renderer": "^16.11.0"
   },
   "browserslist": [
     ">0.1%",

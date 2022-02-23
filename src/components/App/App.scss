@@ -3,5 +3,7 @@
 .App {
   &__main {
     padding: $bpk-spacing-sm;
+    min-height: 100%;
+    background: rgb(240,239,242);
   }
 }

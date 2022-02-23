@@ -1,0 +1,25 @@
+@import '~bpk-mixins';
+
+.FlightCardDetail {
+  margin-bottom: $bpk-spacing-sm;
+  p {
+    margin: 0;
+    span {
+      color: rgb(118,112,132);
+    }
+  }
+  &__leg-container {
+    display: flex; 
+  }
+  &__times-container {
+    width: 30%;
+    margin-left: $bpk-spacing-sm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.abc-icon__arrow {
+  fill: rgb(169,164,181);
+}
