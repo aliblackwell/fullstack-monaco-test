@@ -2,6 +2,8 @@
 
 ### Q) What libraries did you add to the frontend? What are they used for?
 
+None, other than Yarn (see below). I also added a .prettierrc file so team mates can share formatting, but opted against e.g. husky to lint before committing, as this would have entailed adding lots of dependencies, and actually a shared .prettierrc file is quite an elegant way of sharing code formatting conventions.
+
 #### Yarn (not technically a frontend library)
 Yarn replaces npm as project package manager.
 
@@ -19,7 +21,7 @@ However, I spent a good couple of hours trying to get this working and ended up 
 
 ---
 
-# General7:
+# General:
 
 ### Q) If you had more time, what further improvements or new features would you add?
 
@@ -28,8 +30,12 @@ However, I spent a good couple of hours trying to get this working and ended up 
 
 ### Q) Which parts are you most proud of? And why?
 
+Data fetching: it doesn't use any external libraries, making use of native JS fetch and React's useEffect and useState. It loads gracefully with a loading component and handles errors cleanly.
+
 ### Q) Which parts did you spend the most time with? What did you find most difficult?
 
-Security
+Security - see above!
 
 ### Q) How did you find the test overall? Did you have any issues or have difficulties completing?If you have any suggestions on how we can improve the test, we'd love to hear them.
+
+Good, I wish I'd spent less time on yarn etc and more time on the app itself!
