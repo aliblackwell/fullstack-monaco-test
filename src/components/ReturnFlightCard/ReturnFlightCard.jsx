@@ -7,10 +7,12 @@ const getClassName = (className) => STYLES[className] || 'UNKNOWN';
 
 const ReturnFlightCard = ({ outboundFlight, inboundFlight, price, url }) => {
   return (
-    <BpkCard className={getClassName('ReturnFlightCard')}>
-      <FlightCardDetail flight={outboundFlight} />
-      <FlightCardDetail flight={inboundFlight} />
-    </BpkCard>
+    <section>
+      <BpkCard className={getClassName('ReturnFlightCard')}>
+        <FlightCardDetail flight={outboundFlight} />
+        <FlightCardDetail flight={inboundFlight} />
+      </BpkCard>
+    </section>
   );
 };
 

@@ -27,6 +27,7 @@ However, I spent a good couple of hours trying to get this working and ended up 
 
 * Better handling of the data e.g. multiple legs
 * Sort out SASS class name loading
+* Update tests
 
 ### Q) Which parts are you most proud of? And why?
 

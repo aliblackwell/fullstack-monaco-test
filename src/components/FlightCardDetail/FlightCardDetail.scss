@@ -1,22 +1,43 @@
 @import '~bpk-mixins';
 
+$secondaryText: rgb(118,112,132);
+
 .FlightCardDetail {
   margin-bottom: $bpk-spacing-sm;
+  width: 100%;
   p {
     margin: 0;
-    span {
-      color: rgb(118,112,132);
-    }
+  }
+  &__airport {
+    color: $secondaryText;
+  }
+  &__left {
+    display: flex; 
+    width: 50%;     
+  }
+  &__right {
+    width: 50%;
+    text-align: right;
   }
   &__leg-container {
     display: flex; 
   }
-  &__times-container {
-    width: 30%;
+  &__times-container {    
     margin-left: $bpk-spacing-sm;
     display: flex;
+    width: calc(100% - 40px); // account for image + padding
     align-items: center;
     justify-content: space-between;
+  }
+  &__flight-meta {
+    color: $secondaryText;
+    line-height: 1.5 !important; // align baseline with flight time and airport
+  }
+  &__flight-stops_direct {
+    color: rgb(0,156,141);
+  }
+  &__flight-stops_indirect {
+    color: rgb(203,59,81);
   }
 }
 

@@ -12,7 +12,6 @@ export default function WithFlights(WrappedComponent) {
         try {
           const response = await fetch('./flights.json');
           const flights = await response.json();
-          console.log(flights);
           setFlights(flights);
         } catch (error) {
           setFetchError(error);
