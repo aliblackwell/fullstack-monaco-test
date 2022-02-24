@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReturnFlightCard should render correctly 1`] = `
+<section>
+  <div
+    className="bpk-card bpk-card--padded ReturnFlightCard"
+    role="button"
+    tabIndex={0}
+  >
+    <article
+      className="FlightCardDetail"
+    >
+      <div
+        className="FlightCardDetail__leg-container"
+      >
+        <div
+          className="FlightCardDetail__left"
+        >
+          <div
+            className={null}
+            style={
+              Object {
+                "height": "32px",
+                "minWidth": "32px",
+                "width": "32px",
+              }
+            }
+          >
+            <div
+              className="bpk-image bpk-image--no-background"
+              style={
+                Object {
+                  "height": 0,
+                  "paddingBottom": "100%",
+                }
+              }
+              suppressHydrationWarning={false}
+            >
+              <img
+                alt="Wizz Air logo"
+                className="bpk-image__img"
+                onLoad={[Function]}
+                src="https://logos.skyscnr.com/images/airlines/favicon/WZ.png"
+                suppressHydrationWarning={false}
+              />
+            </div>
+          </div>
+          <div
+            className="FlightCardDetail__times-container"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              3:35 PM
+              <br />
+              <span
+                className="bpk-text bpk-text--base FlightCardDetail__airport"
+              >
+                BUD
+              </span>
+            </p>
+            <svg
+              aria-label="Arrow"
+              className="abc-icon__arrow"
+              height="18"
+              style={
+                Object {
+                  "height": "1.125rem",
+                  "width": "1.125rem",
+                }
+              }
+              viewBox="0 0 24 24"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M3 12a1.5 1.5 0 0 0 1.5 1.5h11.379l-4.94 4.94a1.5 1.5 0 0 0 2.122 2.12l7.5-7.5a1.5 1.5 0 0 0 0-2.12l-7.5-7.5a1.5 1.5 0 0 0-2.122 2.12l4.94 4.94H4.5A1.5 1.5 0 0 0 3 12z"
+              />
+            </svg>
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              5:00 PM
+              <br />
+              <span
+                className="bpk-text bpk-text--base FlightCardDetail__airport"
+              >
+                LTN
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          className="FlightCardDetail__right"
+        >
+          <p
+            className="bpk-text bpk-text--sm FlightCardDetail__flight-meta"
+          >
+            2h 25
+            <br />
+            <span
+              className="bpk-text bpk-text--sm FlightCardDetail__flight-stops_direct"
+            >
+              Direct
+            </span>
+          </p>
+        </div>
+      </div>
+    </article>
+    <article
+      className="FlightCardDetail"
+    >
+      <div
+        className="FlightCardDetail__leg-container"
+      >
+        <div
+          className="FlightCardDetail__left"
+        >
+          <div
+            className={null}
+            style={
+              Object {
+                "height": "32px",
+                "minWidth": "32px",
+                "width": "32px",
+              }
+            }
+          >
+            <div
+              className="bpk-image bpk-image--no-background"
+              style={
+                Object {
+                  "height": 0,
+                  "paddingBottom": "100%",
+                }
+              }
+              suppressHydrationWarning={false}
+            >
+              <img
+                alt="Lufthansa logo"
+                className="bpk-image__img"
+                onLoad={[Function]}
+                src="https://logos.skyscnr.com/images/airlines/favicon/LH.png"
+                suppressHydrationWarning={false}
+              />
+            </div>
+          </div>
+          <div
+            className="FlightCardDetail__times-container"
+          >
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              8:10 AM
+              <br />
+              <span
+                className="bpk-text bpk-text--base FlightCardDetail__airport"
+              >
+                LGW
+              </span>
+            </p>
+            <svg
+              aria-label="Arrow"
+              className="abc-icon__arrow"
+              height="18"
+              style={
+                Object {
+                  "height": "1.125rem",
+                  "width": "1.125rem",
+                }
+              }
+              viewBox="0 0 24 24"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clipRule="evenodd"
+                d="M3 12a1.5 1.5 0 0 0 1.5 1.5h11.379l-4.94 4.94a1.5 1.5 0 0 0 2.122 2.12l7.5-7.5a1.5 1.5 0 0 0 0-2.12l-7.5-7.5a1.5 1.5 0 0 0-2.122 2.12l4.94 4.94H4.5A1.5 1.5 0 0 0 3 12z"
+              />
+            </svg>
+            <p
+              className="bpk-text bpk-text--base"
+            >
+              11:40 AM
+              <br />
+              <span
+                className="bpk-text bpk-text--base FlightCardDetail__airport"
+              >
+                BUD
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          className="FlightCardDetail__right"
+        >
+          <p
+            className="bpk-text bpk-text--sm FlightCardDetail__flight-meta"
+          >
+            2h 30
+            <br />
+            <span
+              className="bpk-text bpk-text--sm FlightCardDetail__flight-stops_direct"
+            >
+              Direct
+            </span>
+          </p>
+        </div>
+      </div>
+    </article>
+    <div
+      className="ReturnFlightCard__layout-container"
+    >
+      <div>
+        <p
+          className="bpk-text bpk-text--xl"
+        >
+          £150
+        </p>
+        <p
+          className="bpk-text bpk-text--lg"
+          style={
+            Object {
+              "color": "rgb(118,112,132)",
+            }
+          }
+        >
+          Some agent
+        </p>
+      </div>
+      <button
+        className="bpk-button ReturnFlightCard__button"
+        disabled={false}
+        onClick={null}
+        type="button"
+      >
+        Select
+      </button>
+    </div>
+  </div>
+</section>
+`;

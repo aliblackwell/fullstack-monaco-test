@@ -11,7 +11,7 @@ import BpkButton from 'bpk-component-button';
 import { withDefaultProps } from 'bpk-react-utils';
 const LargeParagraph = withDefaultProps(BpkText, { textStyle: 'xl', tagName: 'p' });
 const MutedUrl = withDefaultProps(BpkText, {
-  textStyle: 'l',
+  textStyle: 'lg',
   tagName: 'p',
   style: { color: 'rgb(118,112,132)' },
 });
