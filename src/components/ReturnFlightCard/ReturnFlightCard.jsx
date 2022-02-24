@@ -13,7 +13,7 @@ const LargeParagraph = withDefaultProps(BpkText, { textStyle: 'xl', tagName: 'p'
 const MutedUrl = withDefaultProps(BpkText, {
   textStyle: 'l',
   tagName: 'p',
-  style: { color: 'rgb(178, 178, 191)' },
+  style: { color: 'rgb(118,112,132)' },
 });
 
 const ReturnFlightCard = ({ outboundFlight, inboundFlight, price, agent }) => {

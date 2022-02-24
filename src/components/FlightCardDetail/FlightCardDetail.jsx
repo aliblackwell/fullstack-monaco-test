@@ -51,7 +51,7 @@ const FlightCardDetail = ({ flight }) => {
           />
           <div className={getClassName('FlightCardDetail__times-container')}>
             <LegDetails timestamp={flight.departure_time} airport={flight.departure_airport} />
-            <LongArrowRightIconSm className={getClassName('abc-icon__arrow')} />
+            <LongArrowRightIconSm aria-label="Arrow" className={getClassName('abc-icon__arrow')} />
             <LegDetails timestamp={flight.arrival_time} airport={flight.arrival_airport} />
           </div>
         </div>

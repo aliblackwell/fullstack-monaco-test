@@ -35,7 +35,7 @@ $secondaryText: rgb(118,112,132);
     line-height: 1.5 !important; // align baseline with flight time and airport
   }
   &__flight-stops_direct {
-    color: rgb(0,156,141);
+    color: darken(rgb(000, 166, 152), 7.5%) // Accessible Backpack Monteverde on white bg
   }
   &__flight-stops_indirect {
     color: rgb(203,59,81);
