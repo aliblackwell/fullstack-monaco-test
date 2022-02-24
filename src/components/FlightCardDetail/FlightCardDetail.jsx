@@ -11,6 +11,8 @@ function getFlightTimeFromDateString(dateString) {
   const timeWithDate = date.toLocaleDateString('en-GB', {
     hour: 'numeric',
     minute: '2-digit',
+    hour12: false
+
   });
   return timeWithDate.split(', ')[1]; // just get the time
 }

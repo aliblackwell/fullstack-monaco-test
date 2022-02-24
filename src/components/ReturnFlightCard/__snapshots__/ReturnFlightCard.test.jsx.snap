@@ -51,7 +51,7 @@ exports[`ReturnFlightCard should render correctly 1`] = `
             <p
               className="bpk-text bpk-text--base"
             >
-              3:35 PM
+              15:35
               <br />
               <span
                 className="bpk-text bpk-text--base FlightCardDetail__airport"
@@ -81,7 +81,7 @@ exports[`ReturnFlightCard should render correctly 1`] = `
             <p
               className="bpk-text bpk-text--base"
             >
-              5:00 PM
+              17:00
               <br />
               <span
                 className="bpk-text bpk-text--base FlightCardDetail__airport"
@@ -152,7 +152,7 @@ exports[`ReturnFlightCard should render correctly 1`] = `
             <p
               className="bpk-text bpk-text--base"
             >
-              8:10 AM
+              08:10
               <br />
               <span
                 className="bpk-text bpk-text--base FlightCardDetail__airport"
@@ -182,7 +182,7 @@ exports[`ReturnFlightCard should render correctly 1`] = `
             <p
               className="bpk-text bpk-text--base"
             >
-              11:40 AM
+              11:40
               <br />
               <span
                 className="bpk-text bpk-text--base FlightCardDetail__airport"

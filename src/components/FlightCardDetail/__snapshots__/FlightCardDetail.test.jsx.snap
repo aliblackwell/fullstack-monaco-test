@@ -45,7 +45,7 @@ exports[`FlightCardDetail should render correctly 1`] = `
         <p
           className="bpk-text bpk-text--base"
         >
-          3:35 PM
+          15:35
           <br />
           <span
             className="bpk-text bpk-text--base FlightCardDetail__airport"
@@ -75,7 +75,7 @@ exports[`FlightCardDetail should render correctly 1`] = `
         <p
           className="bpk-text bpk-text--base"
         >
-          5:00 PM
+          17:00
           <br />
           <span
             className="bpk-text bpk-text--base FlightCardDetail__airport"
