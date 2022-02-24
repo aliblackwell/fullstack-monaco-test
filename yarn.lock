@@ -2648,6 +2648,14 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bpk-component-button@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/bpk-component-button/-/bpk-component-button-5.1.0.tgz#34bfca24ca61453fd875abde6783cec854778276"
+  integrity sha512-PJvw4F96aNpSHGR7l9eQMPvDRRgn9hWnl6mhVsAxzYr0z8iow9dhM/eaMobABOOe96A0xrtSV4OM4trFwxdOlw==
+  dependencies:
+    bpk-mixins "^26.1.0"
+    prop-types "^15.7.2"
+
 bpk-component-card@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/bpk-component-card/-/bpk-component-card-4.1.0.tgz#c345da51626eba6a068838440b1e9836d926102a"

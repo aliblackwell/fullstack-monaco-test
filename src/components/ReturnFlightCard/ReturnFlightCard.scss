@@ -2,5 +2,10 @@
 
 .ReturnFlightCard {
   max-width: 480px;
+  min-width: 260px;
   margin: 0px auto $bpk-spacing-md;
+  &__layout-container {
+    display: flex;
+    justify-content: space-between;
+  }
 }

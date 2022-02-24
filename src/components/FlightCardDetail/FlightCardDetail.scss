@@ -26,6 +26,7 @@ $secondaryText: rgb(118,112,132);
     margin-left: $bpk-spacing-sm;
     display: flex;
     width: calc(100% - 40px); // account for image + padding
+    min-width: 120px;
     align-items: center;
     justify-content: space-between;
   }
